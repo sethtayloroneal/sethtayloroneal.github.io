@@ -2694,6 +2694,16 @@ input, select, textarea {
 
 /* Button */
 
+.button-scrolly {
+    padding: 0 !important;
+    min-width: 0 !important;
+    width: auto !important;
+    height: auto !important;
+    line-height: normal !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
