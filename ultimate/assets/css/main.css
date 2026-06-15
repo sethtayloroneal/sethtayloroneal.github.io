@@ -2413,6 +2413,16 @@ input, select, textarea {
 		padding-left: 1em;
 	}
 
+		ul.actions.special {
+   	 margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+		}
+
+		ul.actions.special li {
+    padding-left: 0;
+		}
+
 		ul li {
 			padding-left: 0.5em;
 		}
