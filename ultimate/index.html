@@ -103,9 +103,15 @@
   color: rgb(0, 0, 0);
 }
 	
-td {
-    word-wrap: break-word;
+.generated-table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.generated-table th,
+.generated-table td {
     overflow-wrap: break-word;
+    word-break: break-word;
 }
 	
 .generated-table .tgp-style-5 {
