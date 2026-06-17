@@ -2838,7 +2838,7 @@ input, select, textarea {
 			background-repeat: no-repeat;
 			background-position: center center;
 			background-attachment: fixed;
-			background-image: linear-gradient(to right, rgba(245,245,245, 0.5) 0 100%), url("https://t4.ftcdn.net/jpg/03/92/91/71/360_F_392917145_5QWYoheHzRL9z4W3O1HoMxJFMQfM7xJ2.jpg");
+			background-image: linear-gradient(to right, rgba(245,245,245, 0.5) 0 100%), url("../../images/star\ background.jpg");
 			background-size: cover;
 		}
 
