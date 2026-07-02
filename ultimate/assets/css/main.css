@@ -98,7 +98,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #444;
+		color: #353535;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -2412,17 +2412,15 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 		padding-left: 1em;
 	}
-
-		ul.actions.special {
-   	 margin-left: 0;
+ul.actions.special {
+    margin-left: 0;
     padding-left: 0;
     text-align: center;
-		}
+}
 
-		ul.actions.special li {
+ul.actions.special li {
     padding-left: 0;
-		}
-
+}
 		ul li {
 			padding-left: 0.5em;
 		}
@@ -2732,7 +2730,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgba(144, 144, 144, 0.075);
+			background-color: #1767c94f;
 		}
 
 		input[type="submit"]:active,
@@ -2825,7 +2823,7 @@ input, select, textarea {
 /* Main */
 
 	.main {
-		padding: 6em 0 4em 0 ;
+		padding: 4em 0 4em 0 ;
 	}
 
 		.main.style1 {
