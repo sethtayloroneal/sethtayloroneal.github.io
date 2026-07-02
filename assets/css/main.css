@@ -38,6 +38,28 @@ body {
 	line-height: 1;
 }
 
+.resources-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .5em 2em;
+    align-items: start;
+}
+
+.resources-grid .heading {
+    font-weight: bold;
+}
+
+.resources-grid a {
+    display: block;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.resources-grid a span {
+    display: inline;
+    border-bottom: dotted 1px;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -3203,6 +3225,18 @@ input, select, textarea {
 				.poptrox-popup .nav-previous:before {
 					margin-top: -1em;
 				}
+		.resources-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: .5em 1em;
+    }
+
+    .resources-grid a {
+        font-size: 0.9em;
+    }
+
+    .resources-grid h2 {
+        font-size: 1.2em;
+    }
 
 	}
 
