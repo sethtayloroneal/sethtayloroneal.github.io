@@ -3377,7 +3377,11 @@ ul.actions.special li {
 	}
 
 /* Small */
-
+@media screen and (max-width: 736px) {
+    .generated-table {
+        font-size: 0.85em;
+    }
+}
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
